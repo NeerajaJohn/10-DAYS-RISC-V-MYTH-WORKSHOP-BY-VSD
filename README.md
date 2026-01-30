@@ -5,4 +5,6 @@ Day 1: 30-01-2026
 Actions done: 
 1. GitHub Codespace setup: riscv codespace link provided with intro mail opened a codespace. Followed  " Code--> Codespaces-->Create a codespace om the main"
    <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/1cffd514-075a-4770-b686-5f45814121d0" />
- 
+2. Verified setupo and Sample program run in codespace
+   <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/ed73971a-7ac5-4069-b17a-4ea0ca5be713" />
+
