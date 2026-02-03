@@ -83,5 +83,42 @@ The flow: Starts from architecture --> implemented using an RTL ---> Then it goe
 
 1-RV_D1SK1_L2_From Apps To Hardware
 
+How an app runs on a hardware?
+Apps written in high level languages gets converted to assembly language by compilers (sccording to the OS). The result is instruction set(varies with different hardware. eg, ARM, x86, RISC-V). Instruction set is converted to machine language(hex, ie binary) which lets the chip layout to execute specific instructions.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ba37bd69-6766-4214-a74f-9c2e9ce16030" />
+
+The abstract interface betwween the high level language code and the chiplayout is called Instruction Set Architecture. It represents the hardware(Architecture of the computer). 
+
+In between compiler and layout, there is assembler that taskes instrictions and give binary pattern. This is possible due to RTL implementation. RTL understands instructions like "add x6, x10, x6". 
+
+high level RTL --> netlist --> physical design implementation
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/873dba66-da1a-48eb-9669-f2e3d3b33e0e" />
+
+RV_D1SK1_L3_Detailed Description Of Course Content
+
+pseudo instructions
+
+base integer instructions RV64I
+
+multiply extension RV64M
+
+single and double precision floating point extension RV64F & RV64D
+
+Application Binary Interface
+
+memory allocation and stack pointer
+
+RV_D1SK2_L1_C Program To Compute Sum From 1 to N
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/cab28558-5d05-488f-a337-1e612bc2a784" />
+
+RV_D1SK2_L2_RISCV GCC compile And Disassemble
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/bd5e5e36-b4ce-40bd-804d-fdb577805864" />
+
+
+
 
 
