@@ -96,7 +96,7 @@ high level RTL --> netlist --> physical design implementation
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/873dba66-da1a-48eb-9669-f2e3d3b33e0e" />
 
-RV_D1SK1_L3_Detailed Description Of Course Content
+2- RV_D1SK1_L3_Detailed Description Of Course Content
 
 pseudo instructions
 
@@ -110,11 +110,15 @@ Application Binary Interface
 
 memory allocation and stack pointer
 
-RV_D1SK2_L1_C Program To Compute Sum From 1 to N
+D1SK2 - Labwork for RISC-V software toolchain
+
+3- RV_D1SK2_L1_C Program To Compute Sum From 1 to N
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/cab28558-5d05-488f-a337-1e612bc2a784" />
 
-RV_D1SK2_L2_RISCV GCC compile And Disassemble
+4- RV_D1SK2_L2_RISCV GCC compile And Disassemble
+
+runnimng above program in risc v
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/bd5e5e36-b4ce-40bd-804d-fdb577805864" />
 
