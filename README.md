@@ -120,7 +120,16 @@ D1SK2 - Labwork for RISC-V software toolchain
 
 runnimng above program in risc v
 
+first run with risc v compiler  with some options
+
+it qwill generate a file sum1ton.o
+
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/bd5e5e36-b4ce-40bd-804d-fdb577805864" />
+
+
+to find assembly code for the c program we can run
+
+>riscv64-unknown-elf-objdump -d sum1ton.o
 
 
 
