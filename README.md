@@ -122,6 +122,8 @@ runnimng above program in risc v
 
 first run with risc v compiler  with some options
 
+ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o 1ton.o 1ton.c        
+
 it qwill generate a file sum1ton.o
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/bd5e5e36-b4ce-40bd-804d-fdb577805864" />
@@ -130,6 +132,124 @@ it qwill generate a file sum1ton.o
 to find assembly code for the c program we can run
 
 >riscv64-unknown-elf-objdump -d sum1ton.o
+
+5-RV_D1SK2_L3_Spike Simulation And Debug
+
+ spike pk 1ton.o
+
+ 
+
+D1SK3 - Integer number representation
+
+6-bit Number System For Unsigned Numbers
+
+8-RV_D1SK3_L3_Lab For Signed And Unsigned Numbers
+
+
+RV Day 2 - Introduction to ABI and basic verification flow
+
+D2SK1 - Application Binary interface (ABI)
+
+9-RV_D2SK1_L1_Introduction To Application Binary Interface
+
+10-RV_D2SK1_L2_Memory Allocation For Double Words
+
+11-RV_D2SK1_L3_Load, Add And Store Instructions With Example
+
+12-registers And Their Respective ABI Names
+
+
+ABI Names
+
+D2SK2 - Lab work using ABI function calls
+13-RV_D2SK2_L1_Study New Algorithm For Sum 1 to N Using ASM
+14-RV_D2SK2_L2_Review ASM Function Call
+15-RV_D2SK2_L3_Simulate New C Program With Function Call
+
+
+
+D2SK3 - Basic verification flow using iverilog
+16-Program On RISC-V CPU
+
+RV Day 3 - Digital Logic with TL-Verilog and Makerchip
+
+D3SK1 - Combinational logic in TL-Verilog using Makerchip
+17-RV_D3SK1_L0_Welcome
+18-RV_D3SK1_L1_Introduction To Logic Gates
+19-RV_D3SK1_L2_Basic Mux Implementation And Introduction To Makerchip
+20-RV_D3SK1_L3_Labs For Combinational Logic
+
+D3SK2 - Sequential logic
+21-RV_D3SK2_L1_Introduction To Sequential Logic And Counter Lab
+22-RV_D3SK2_L2_Sequential Calculator Lab
+
+D3SK3 - Pipelined logic
+23-Timing
+24-RV_D3SK3_L2_Pipeline Logic Advantages And Demo In Platform
+25-RV_D3SK3_L3_Lab On Error Conditions Within Computation Pipeline
+26-Cycle Calculator
+
+D3SK4 - Validity
+27-RV_D3SK4_L1_Introduction To Validity And Its Advantages
+28-RV_D3SK4_L2_Lab On Validity And Valid When Condition
+29-RV_D3SK4_L3_Lab To Compute Total Distance
+30-cycle Calculator with Validity
+31-RV_D3SK4_L5_Calulator Single Value Memory Lab
+
+up
+32-(Bonus) RV_D3SK5_L1_Introduction To Hierarchy Concept
+33-RV_D3SK5_L2_Day3_closer
+
+RV_D3SK5_L2_Day3_closer
+
+RV Day 4 - Basic RISC-V CPU micro-architecture
+
+D4SK1 - Introduction to Simple RISC-V Micro-architecture
+34-architecture of Single Cycle RISC-V CPU
+35-V Labs Part-1
+36-V Labs Part-2
+
+
+
+D4SK2 - Fetch and decode
+37-RV_D4SK2_L1_Implementation Plan and Lab for PC
+38-RV_D4SK2_L2_Lab For Instruction Fetch Logic
+39-RV_D4SK2_L3_Lab For RV Instruction Types IRSBJU Decode Logic
+42-ISBUJ
+43-RV_D4SK2_L7_Lab To Decode Individual Instruction
+
+D4SK3 - RISC-V control logic
+45-2
+44-RV_D4SK3_L1_Lab For Register File Read Part1 (USE UPDATED SHELL CODE)
+46-RV_D4SK3_L3_Lab For ALU Operations For add/addi
+47-RV_D4SK3_L4_Lab For Register File Write
+48-RV_D4SK3_L5_Concept of Array And Register File Details
+49-RV_D4SK3_L6_Lab For Implementing Branch Instructions
+50-RV_D4SK3_L7_Lab For Completing Branch Instruction Implementation
+51-RV_D4SK3_L8_Lab To Create Simple Testbench
+
+RV Day 5 - Complete Pipelined RISC-V CPU micro-architecture
+
+D5SK1 - Pipelining the CPU
+52-RV_D5SK1_L1_Introduction To Control Flow Hazard And Read After Write Hazard
+53-Cycle Valid Signal
+54-Cycle RISC-V To Take Care Of Invalid Cycles
+55-Cycle RISC-V To Distribute Logic
+
+D5SK2 - Solutions to Pipeline Hazards
+56-After-Wr Hazard
+57-RV_D5SK2_L2_Lab For Branches To Correct The Branch Target Path
+58-RV_D5SK2_L3_Lab To Complete Instruction Decode Except Fence, Ecall, Ebreak
+59-RV_D5SK2_L4_Lab To Code Complete ALU
+
+D5SK3 - Load/Store Instructions and Completing RISC-V CPU
+60-RV_D5SK3_L1_Introduction To Load Store Instructions And Lab To Redirect Loads
+61-RV_D5SK3_L2_Lab To Load Data From Memory To Register File
+62-RV_D5SK3_L3_Lab To Instantiate Data Memory To The CPU
+63-RV_D5SK3_L4_Lab To Add Stores And Loads To The Test Program
+64-RV_D5SK3_L5_Lab To Add Control Logic For Jump Instructions
+65-RV_D5SK3_L6_Wrap Up
+
 
 
 
