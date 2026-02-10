@@ -23,25 +23,33 @@ Actions done:
    <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/69863b12-5e0a-4313-a07f-9422a11d9538" />
    
    e. Navigated to samples folder using the following commands
+
+   ```bash
+    cd /workspaces/vsd-riscv2
    
-      > cd /workspaces/vsd-riscv2
-      > 
-      > cd samples
-      > 
-      > ls -ltr
+    cd samples
+   
+    ls -ltr
+   ```
+   
    <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/71f4d047-00cf-4527-b2b1-0ec8d3628657" />
    
    d. ran sample program to find sum and saw output using following commands (using Native GCC (x86))
-   
-      > gcc sum1ton.c
-.     >  ./a.out
+   ```bash
+       gcc sum1ton.c
+.     ./a.out
+   ```
+
    <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d62a7e79-d7fc-4741-8ccd-1ab45f471831" />
    
    e.  compiled the same program for RISC-V and ran it on the Spike ISA simulator
-   
+
+   ```bash
       > riscv64-unknown-elf-gcc -o sum1ton.o sum1ton.c
       > 
       > spike pk sum1ton.o
+   ```
+
    <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a514839e-ebf2-45af-87a1-57588021fa40" />
    
    f. opened sum1ton.c on gedit
@@ -131,12 +139,14 @@ it qwill generate a file sum1ton.o
 
 to find assembly code for the c program we can run
 
->riscv64-unknown-elf-objdump -d sum1ton.o
-
+```bash
+riscv64-unknown-elf-objdump -d sum1ton.o
+```
 5-RV_D1SK2_L3_Spike Simulation And Debug
 
+```bash
  spike pk 1ton.o
-
+```
  
 
 D1SK3 - Integer number representation
