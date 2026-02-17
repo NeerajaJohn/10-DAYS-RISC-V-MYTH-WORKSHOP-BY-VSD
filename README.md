@@ -37,17 +37,20 @@ Actions done:
    d. ran sample program to find sum and saw output using following commands (using Native GCC (x86))
    ```bash
        gcc sum1ton.c
+   
 .     ./a.out
    ```
 
    <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d62a7e79-d7fc-4741-8ccd-1ab45f471831" />
-   
+
+
    e.  compiled the same program for RISC-V and ran it on the Spike ISA simulator
 
+
    ```bash
-      > riscv64-unknown-elf-gcc -o sum1ton.o sum1ton.c
-      > 
-      > spike pk sum1ton.o
+       riscv64-unknown-elf-gcc -o sum1ton.o sum1ton.c
+       
+       spike pk sum1ton.o
    ```
 
    <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a514839e-ebf2-45af-87a1-57588021fa40" />
